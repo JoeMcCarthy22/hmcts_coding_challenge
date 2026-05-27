@@ -138,7 +138,7 @@ DELETE `/api/tasks/:id`
 ## Unit Testing
 
 Basic unit tests were implemented using Jest to verify isolated application logic and demonstrate testing setup/configuration.
-=======
+
 
 ## Running Tests
 
