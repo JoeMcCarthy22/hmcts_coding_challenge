@@ -48,7 +48,7 @@ npm install
 npm run dev
 ```
 
-The backend uses nodemon for automatic server restarting during development.
+The backend uses nodemon for automatic server restarting during development
 
 ---
 
