@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Project Overview
 
 ![Overview](./screenshots/overview.png)
