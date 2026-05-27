@@ -1,7 +1,7 @@
 
 ## Project Overview
 
-![Overview](./screenshots/PREVIEW.png)
+![Preview](./screenshots/preview.png)
 
 This application was developed as part of the HMCTS DTS Developer Technical Test.
 
