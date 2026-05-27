@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import logo from './assets/logo.jpg'
 
 function App() {
   const [tasks, setTasks] = useState([])
@@ -92,9 +93,18 @@ const toggleStatus = async (task) => {
 
   return (
     <div>
+      <img src={logo} alt="Logo" />
       <h1>HMCTS Task Manager</h1>
 
       <p>Task count: {tasks.length}</p>
+      <div
+      style={{
+        backgroundColor: '#dbeafe',
+        padding: '20px',
+        borderRadius: '10px',
+        marginBottom: '20px'
+        }}
+        >
 
       <form onSubmit={createTask}>
       <h2>Create Task</h2>
@@ -124,13 +134,21 @@ const toggleStatus = async (task) => {
 
       <button type="submit">Add Task</button>
       </form>
+      </div>
 
       {tasks.map((task) => (
         <div key={task._id}>
           <h2>{task.title}</h2>
           <p>{task.description}</p>
-          <p>{task.status}</p>
-
+          <p>Status:{' '}
+            <strong
+              style={{
+                color: task.status === 'done' ? 'darkgreen' : 'red'
+                }}
+              >
+            {task.status}
+            </strong>
+          </p>
           <button onClick={() => toggleStatus(task)}>
           {task.status === 'done' ? 'Mark as Todo' : 'Mark as Done'}
           </button>
