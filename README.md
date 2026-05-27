@@ -1,7 +1,7 @@
 
 ## Project Overview
 
-![Preview](./screenshots/preview.png)
+![Preview]![Preview](https://raw.githubusercontent.com/JoeMcCarthy22/hmcts_coding_challenge/main/screenshots/preview.png)
 ## Test Image
 
 <img src="./screenshots/preview.png" width="700"/>
