@@ -1,6 +1,6 @@
 ## Project Overview
 
-<img src="./screenshots/overview.png" width="700" />
+![Overview](./screenshots/overview.png)
 
 This application was developed as part of the HMCTS DTS Developer Technical Test.
 
