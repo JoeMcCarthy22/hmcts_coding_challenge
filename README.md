@@ -18,6 +18,13 @@ The goal was to build a full-stack task management system allowing caseworkers t
 - Persistent MongoDB database storage
 - Basic validation and error handling
 
+## Architecture
+
+- React frontend built with Vite
+- Express REST API backend
+- MongoDB Atlas database
+- Mongoose ODM for database interaction
+
 ## Tech Stack
 
 Frontend:
@@ -132,3 +139,13 @@ DELETE `/api/tasks/:id`
 
 Basic unit tests were implemented using Jest to verify isolated application logic and demonstrate testing setup/configuration.
 =======
+
+## Running Tests
+
+Backend unit tests are implemented using Jest.
+
+Run tests with:
+
+```bash
+cd server
+npm test
